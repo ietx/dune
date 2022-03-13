@@ -1,11 +1,24 @@
-/// @description Insert description here
-// You can write your code in this editor
-left = -1;
-right = 1;
-up = -1;
-down = 1;
+// direction
+xaxis = 0
+yaxis = 0
 
-xveloc = 0;
-yveloc = 0;
+// mov
+spd = 1.2;
+len = 0;
+dire = 0
+xspd = 0;
+yspd = 0;
+spd_dir = 0;
 
-veloc = 10;
+//dash
+
+dash_spd = 8;
+dash_dir = 0;
+
+//satte
+state = move_state
+
+//energy
+
+max_energy = 100
+energy = max_energy
