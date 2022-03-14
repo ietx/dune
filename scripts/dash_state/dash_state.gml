@@ -6,6 +6,6 @@ function dash_state(){
 	player_colision()
 
 	
-shadow = instance_create_layer(x, y, "Instances", obj_dash);
+shadow = instance_create_layer(x, y, "Instances_1", obj_dash);
 shadow.sprite_index = sprite_index
 }

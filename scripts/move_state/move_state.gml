@@ -1,23 +1,13 @@
 function player_colision(){
 //colision check
 
-if place_meeting(x + xspd, y , obj_colision){
-	while !place_meeting(x + sign(xspd), y, obj_colision){
-		x += sign(xspd)
-	}
-xspd = 0
-}
+col_map_limits();
+//col_small_alien();
+col_tower();
+
+
 x += xspd;
-
-
-if place_meeting(x, y + yspd , obj_colision){
-	while !place_meeting(x, y + sign(yspd), obj_colision){
-		y += sign(yspd);
-	}
-yspd = 0
-}
 y += yspd;
-
 }
 function move_state(){
 script_execute(input_map);
@@ -49,7 +39,6 @@ yspd = lengthdir_y(spd, spd_dir)
 
 if (xaxis == 0) and (yaxis == 0)
 {
-	no_dash = true
 	xspd = 0
 	yspd = 0
 } else {
