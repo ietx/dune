@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+/// @description Tempo que dura o state Dash
+get_hit = true
 state = move_state;

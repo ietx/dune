@@ -34,6 +34,9 @@ yspd = yaxis * spd
 
 spd_dir = point_direction(x, y, x + xspd, y + yspd)
 
+if (xaxis != 0) or (yaxis != 0){
+still_dir = spd_dir}
+
 xspd = lengthdir_x(spd, spd_dir)
 yspd = lengthdir_y(spd, spd_dir)
 
@@ -61,15 +64,42 @@ if (yspd < 0) {
 	sprite_index = spr_ROB_Walk_Left
 }
 
-if ((xaxis != 0) or (yaxis != 0)) and (energy >= 10) and (alarm[2] <= 0){
+if ((xaxis != 0) or (yaxis != 0)) and (alarm[2] <= 0){
 
 if keyboard_check(ord("U")){
-	energy -= 10
+	energy -= 1
 	dash_dir = spd_dir
 	alarm[2] = 30
 	alarm[1] = 180
 	alarm[0] = 8;
 	state = dash_state;
 }	
+}
+
+// shooting
+
+if can_shoot == true{
+if keyboard_check(ord ("I")){
+	energy -= 1
+	var _xx = lengthdir_x(5, still_dir)
+	var _yy = lengthdir_y(5, still_dir)
+	var _bullet = instance_create_layer(x + _xx, y + _yy, "Bullet", obj_bullet)
+	_bullet.direction = still_dir;
+	_bullet.image_angle = still_dir + 270;
+	_bullet.speed = 5
+	alarm [5] = 10
+	can_shoot = false
+}
+}
+if recharge == true{
+if keyboard_check(ord ("O")){
+energy += 1/10
+if energy > 100{
+obj_tower.energy -= 0
+} else { 
+obj_tower.energy -= 1/10
+}
+
+}
 }
 }

@@ -10,6 +10,7 @@ y += yspd;
 }
 
 function alien_attack_player(){
+	path_end()
 	image_speed = 1.5 // anima fica mais rapida por ele correr
 	dest_x = obj_robb.x;
 	dest_y = obj_robb.y;
@@ -22,6 +23,7 @@ function alien_attack_player(){
 	
 	if distance_to_object(obj_robb) >= dist_give_up{
 		state = alien_check_player;
+		
 	}
 
 }
