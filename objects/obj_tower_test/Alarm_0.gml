@@ -1,0 +1,1 @@
+get_hit = true

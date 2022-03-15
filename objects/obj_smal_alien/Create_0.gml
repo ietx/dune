@@ -15,3 +15,7 @@ state = alien_check_player;
 //path
 path = path_add();
 
+
+tower = 0
+
+life = 3

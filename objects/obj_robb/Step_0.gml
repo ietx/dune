@@ -1,5 +1,6 @@
 script_execute(state)
-
+tower = obj_tower
+batery_life = energy/max_energy
 depth = -y
 
 //if alarm[1] <= 0{

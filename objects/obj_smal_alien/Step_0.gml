@@ -1,3 +1,9 @@
+tower = obj_tower
+
+if life <= 0 {
+instance_create_layer(x , y , "Bullet", obj_orb)
+	instance_destroy()
+}
 script_execute(state)
 depth = -y
 

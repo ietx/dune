@@ -1,8 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function alien_check_player(){
-	dest_x = obj_tower.x
-	dest_y = obj_tower.y
+	dest_x = tower.x
+	dest_y = tower.y
 	path_delete(path)
 	path = path_add()
 	mp_grid_path(obj_setup_pathway.grid, path,x , y, dest_x, dest_y, 1)

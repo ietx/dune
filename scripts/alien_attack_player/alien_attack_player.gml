@@ -4,6 +4,7 @@ function alien_colision(){
 //col_small_alien();
 col_map_limits();
 col_tower();
+col_tower2()
 x += xspd;
 y += yspd;
 
