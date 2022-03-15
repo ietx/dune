@@ -11,3 +11,5 @@ obj_robb.recharge = true
 } else {
 obj_robb.recharge = false
 }
+
+max_energy = clamp(max_energy, 0, max_energy_default);

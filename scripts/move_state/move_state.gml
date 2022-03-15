@@ -76,6 +76,7 @@ if keyboard_check(ord("U")){
 }	
 }
 
+
 // shooting
 
 if can_shoot == true{
@@ -91,15 +92,15 @@ if keyboard_check(ord ("I")){
 	can_shoot = false
 }
 }
-if recharge == true{
-if keyboard_check(ord ("O")){
-energy += 1/10
-if energy > 100{
-obj_tower.energy -= 0
-} else { 
-obj_tower.energy -= 1/10
+if recharge == true{ // se esta dentro da area da torre
+if keyboard_check_pressed(ord ("O")){
+state = recharging;
 }
-
+if keyboard_check_pressed(ord ("P")) and (parts >=1){
+repair = true
+alarm [6] = 300
+parts -= 1
+state = repairing;
 }
 }
 }

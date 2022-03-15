@@ -23,6 +23,7 @@ state = move_state;
 
 max_energy = 100;
 energy = max_energy;
+press_to_stop_charging = false
 
 get_hit = true;
 recharge = false
@@ -36,4 +37,8 @@ alarm [5] = 1
 
 hit_alpha = -1
 
+
+//repair
 money = 0
+parts = 3
+repair = false
