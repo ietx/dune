@@ -72,5 +72,24 @@ if place_meeting(x, y + yspd , obj_tower){
 	}
 yspd = 0
 }
+}
+
+function col_tower2(){
+if place_meeting(x + xspd, y , obj_tower2){
+	while !place_meeting(x + sign(xspd), y, obj_tower2){
+		x += sign(xspd)
+	}
+xspd = 0
+}
+
+
+
+
+if place_meeting(x, y + yspd , obj_tower2){
+	while !place_meeting(x, y + sign(yspd), obj_tower2){
+		y += sign(yspd);
+	}
+yspd = 0
+}
 
 }

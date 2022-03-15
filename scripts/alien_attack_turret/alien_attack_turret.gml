@@ -3,21 +3,21 @@
 function alien_attack_turret(){
 	path_end()
 
-	dest_x = obj_tower.x;
-	dest_y = obj_tower.y;
+	dest_x = tower.x;
+	dest_y = tower.y;
 	
 	var _dir = point_direction(x, y, dest_x, dest_y)
 	xspd = lengthdir_x(spd_tower, _dir)
 	yspd = lengthdir_y(spd_tower, _dir)
 	alien_colision();
 	
-	if distance_to_object(obj_tower) <= dist_damage_tower{
+	if distance_to_object(tower) <= dist_damage_tower{
 		
-		if obj_tower.get_hit == true {
-			with (obj_tower){
+		if tower.get_hit == true {
+			with (tower){
 			alarm [0] = 60;
 			get_hit = false;
-			max_energy -= 1;
+			max_energy -= 50;
 	
 	}
 }

@@ -4,14 +4,26 @@ function player_colision(){
 col_map_limits();
 //col_small_alien();
 col_tower();
+col_tower2()
 
-
+if batery_life >= 0.50{
 x += xspd;
 y += yspd;
+} else if (batery_life <= 0.50) and (batery_life >= 0.10) {
+x += xspd * 0.8;
+y += yspd * 0.8;
+} else if (batery_life <= 0.10) {
+x += xspd * 0.6;
+y += yspd * 0.6;
 }
+}
+
 function move_state(){
 script_execute(input_map);
 
+if batery_life == 0{
+state = out_of_battery;
+}
 
 xaxis = right - left
 yaxis = down - up
@@ -57,7 +69,14 @@ if (len == 0) image_index = 0;
 if (yspd < 0) {
 	sprite_index = spr_ROB_Walk_Up
 } else if (yspd > 0) {
-	sprite_index = spr_ROB_Walk_Down
+	if batery_life >= 0.50{
+		sprite_index = spr_ROB_Walk_Down
+		} else if (batery_life <= 0.50) and (batery_life >= 0.10) {
+		sprite_index = spr_N1_Walk_Front_50
+		} else if (batery_life <= 0.10) {
+		sprite_index = spr_N1_Walk_Front_0
+		}
+	
 } else if (xspd > 0) {
 	sprite_index = spr_ROB_Walk_Right
 } else if (xspd < 0) {
