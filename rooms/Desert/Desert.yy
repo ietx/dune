@@ -136,6 +136,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_smal_alien","path":"objects/obj_smal_alien/obj_smal_alien.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":368.0,"y":112.0,"resourceVersion":"1.0","name":"inst_373501E6","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tower","path":"objects/obj_tower/obj_tower.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":176.0,"resourceVersion":"1.0","name":"inst_7B7CC22D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tower_test","path":"objects/obj_tower_test/obj_tower_test.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":800.0,"y":64.0,"resourceVersion":"1.0","name":"inst_40CF0AB3","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_genie","path":"objects/obj_genie/obj_genie.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":48.0,"resourceVersion":"1.0","name":"inst_3E692125","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"desert","path":"objects/desert/desert.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_5411C5D1","tags":[],"resourceType":"GMRInstance",},
@@ -266,6 +267,7 @@
     {"name":"inst_373501E6","path":"rooms/Desert/Desert.yy",},
     {"name":"inst_7B7CC22D","path":"rooms/Desert/Desert.yy",},
     {"name":"inst_40CF0AB3","path":"rooms/Desert/Desert.yy",},
+    {"name":"inst_3E692125","path":"rooms/Desert/Desert.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
