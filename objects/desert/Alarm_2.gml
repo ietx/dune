@@ -15,3 +15,5 @@ instance_create_layer(742, 196, "Instances_1" ,obj_genie)
 instance_create_layer(161, 380, "Instances_1" ,obj_genie)
 }
 
+obj_smal_alien.state = alien_small_death_sun;
+obj_smal_alien.alarm[0] = 40

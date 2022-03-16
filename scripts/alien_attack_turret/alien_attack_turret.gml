@@ -1,14 +1,15 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function alien_attack_turret(){
+	alien_small_walk()
 	path_end()
 
 	dest_x = tower.x;
 	dest_y = tower.y;
 	
-	var _dir = point_direction(x, y, dest_x, dest_y)
-	xspd = lengthdir_x(spd_tower, _dir)
-	yspd = lengthdir_y(spd_tower, _dir)
+	dir = point_direction(x, y, dest_x, dest_y)
+	xspd = lengthdir_x(spd_tower, dir)
+	yspd = lengthdir_y(spd_tower, dir)
 	alien_colision();
 	
 	if distance_to_object(tower) <= dist_damage_tower{
