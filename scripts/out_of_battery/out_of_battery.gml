@@ -2,5 +2,13 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function out_of_battery(){
 sprite_index = spr_ROB_Death_Energy
-image_index = 4}
+image_speed = 1
+if (image_speed > 0){
+if sprite_index == spr_ROB_Death_Energy{
+	if image_index >= 3{
+	image_speed = 0
+	}
 
+}
+}
+}

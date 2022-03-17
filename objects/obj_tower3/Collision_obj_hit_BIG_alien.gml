@@ -1,1 +1,1 @@
-max_energy -= 6
+max_energy -= 8

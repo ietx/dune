@@ -4,7 +4,7 @@
     "path": "sprites/hit_raio/hit_raio.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

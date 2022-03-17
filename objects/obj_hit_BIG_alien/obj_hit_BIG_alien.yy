@@ -4,7 +4,7 @@
     "path": "sprites/spr_hit_BIG_alien/spr_hit_BIG_alien.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

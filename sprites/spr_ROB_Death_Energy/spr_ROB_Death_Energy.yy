@@ -41,7 +41,7 @@
     "spriteId": {"name":"spr_ROB_Death_Energy","path":"sprites/spr_ROB_Death_Energy/spr_ROB_Death_Energy.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 6.0,
+    "playbackSpeed": 3.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

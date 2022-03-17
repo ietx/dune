@@ -4,7 +4,7 @@ global.night = false
 
 
 // spawn_genie
-
+random_set_seed(current_second*current_hour*current_hour*current_month)
 genie_random_loc = round(random_range(0,2))
 
 if genie_random_loc == 0{
