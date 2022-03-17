@@ -10,11 +10,11 @@ if batery_life >= 0.50{
 x += xspd;
 y += yspd;
 } else if (batery_life <= 0.50) and (batery_life >= 0.10) {
-x += xspd * 0.8;
-y += yspd * 0.8;
+x += xspd * 0.7;
+y += yspd * 0.7;
 } else if (batery_life <= 0.10) {
-x += xspd * 0.6;
-y += yspd * 0.6;
+x += xspd * 0.5;
+y += yspd * 0.5;
 }
 }
 
@@ -92,9 +92,8 @@ if keyboard_check(ord("U")){
 	alarm[1] = 180
 	alarm[0] = 8;
 	state = dash_state;
-}	
 }
-
+}
 
 // shooting
 

@@ -5,8 +5,9 @@ yaxis = 0
 
 tower = obj_tower
 
+is_shopping = false
 // mov
-spd = 4;
+spd = 3;
 len = 0;
 dire = 0
 xspd = 0;
@@ -42,6 +43,6 @@ hit_alpha = -1
 
 
 //repair
-money = 0
+money = 200
 parts = 3
 repair = false
