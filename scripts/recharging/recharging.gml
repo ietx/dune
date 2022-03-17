@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function recharging(){
+	audio_play_sound(Recharging, 1, false)
 draw_sprite_ext(spr_HUB_N1_Express_RECHARGING,1,10,10, 4,4, 0, c_white, 1)
 sprite_index = spr_N1_Recharge
 press_to_stop_charging = true

@@ -1,5 +1,5 @@
 if dead == false{
-
+state = alien_hit_R1_BIG
 if other.get_hit == true {
 	var _dir = point_direction(x, y, other.x, other.y)
 

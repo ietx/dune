@@ -38,6 +38,7 @@ if (xaxis == 0) and (yaxis == 0)
 {
 len = 0;
 } else {
+//audio_play_sound(Walking, 1, false)
 len = spd;
 }
 
@@ -101,6 +102,7 @@ if keyboard_check(ord("U")){
 
 if can_shoot == true{
 if keyboard_check(ord ("I")){
+	audio_play_sound(Regular_Shot, 1, false)
 	energy -= .2
 	var _xx = lengthdir_x(5, still_dir)
 	var _yy = lengthdir_y(5, still_dir)
