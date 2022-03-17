@@ -12,3 +12,4 @@ obj_genie.alarm[1] = 40
 
 instance_create_layer(1000, 1000, "Instances_1" ,obj_smal_alien)
 instance_create_layer(1100, 1100, "Instances_1" ,obj_big_alien)
+instance_create_layer(1100, 1100, "Instances_1" ,obj_mid_alien)

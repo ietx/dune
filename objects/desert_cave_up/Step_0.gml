@@ -1,6 +1,6 @@
 depth = -700
 
-if image_alpha >= 0.5 and global.night == true{
+if image_alpha >= 0 and global.night == true{
 image_alpha -= 0.005;
 }
 

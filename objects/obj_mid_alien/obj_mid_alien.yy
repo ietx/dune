@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Alien2_FRONT_strip1",
-    "path": "sprites/spr_Alien2_FRONT_strip1/spr_Alien2_FRONT_strip1.yy",
+    "name": "spr_Alien_2_Walk_Front",
+    "path": "sprites/spr_Alien_2_Walk_Front/spr_Alien_2_Walk_Front.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,6 +23,9 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_robb","path":"objects/obj_robb/obj_robb.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

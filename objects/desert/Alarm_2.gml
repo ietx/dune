@@ -17,4 +17,5 @@ instance_create_layer(672, 222, "Instances_1" ,obj_genie)
 
 obj_smal_alien.state = alien_small_death_sun;
 obj_big_alien.state = alien_BIG_death_sun;
+obj_mid_alien.state = alien_MID_death_sun;
 

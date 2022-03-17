@@ -108,7 +108,7 @@ if keyboard_check(ord ("I")){
 	_bullet.direction = still_dir;
 	_bullet.image_angle = still_dir + 270;
 	_bullet.speed = 5
-	alarm [5] = 10
+	alarm [5] = 7
 	can_shoot = false
 }
 }
