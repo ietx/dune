@@ -3,8 +3,11 @@ function alien_colision(){
 //col_robb();
 //col_small_alien();
 col_map_limits();
-col_tower();
-col_tower2()
+//col_tower();
+//col_tower_alien();
+//col_tower2();
+//col_tower3();
+//col_tower4();
 x += xspd;
 y += yspd;
 
@@ -13,7 +16,7 @@ y += yspd;
 function alien_attack_player(){
 	alien_small_walk()
 	path_end()
-	image_speed = 1.5 // anima fica mais rapida por ele correr
+	image_speed = 1 // anima fica mais rapida por ele correr
 	dest_x = obj_robb.x;
 	dest_y = obj_robb.y;
 	

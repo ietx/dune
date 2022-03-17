@@ -1,0 +1,1 @@
+max_energy -= 2

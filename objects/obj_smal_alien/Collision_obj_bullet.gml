@@ -1,3 +1,4 @@
-with (other){
-	instance_destroy(other)
+if dead == false{
+life -= 1
+state = alien_attack_player
 }

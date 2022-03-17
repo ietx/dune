@@ -1,9 +1,9 @@
 // direction
-
+alarm [7] = 10
 xaxis = 0
 yaxis = 0
 
-tower = obj_tower
+tower = 0
 
 is_shopping = false
 // mov

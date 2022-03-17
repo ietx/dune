@@ -5,6 +5,8 @@ col_map_limits();
 //col_small_alien();
 col_tower();
 col_tower2()
+col_tower3()
+//col_tower4()
 
 if batery_life >= 0.50{
 x += xspd;
@@ -86,7 +88,7 @@ if (yspd < 0) {
 if ((xaxis != 0) or (yaxis != 0)) and (alarm[2] <= 0){
 
 if keyboard_check(ord("U")){
-	energy -= 1
+	energy -= .2
 	dash_dir = spd_dir
 	alarm[2] = 30
 	alarm[1] = 180
@@ -99,7 +101,7 @@ if keyboard_check(ord("U")){
 
 if can_shoot == true{
 if keyboard_check(ord ("I")){
-	energy -= 1
+	energy -= .2
 	var _xx = lengthdir_x(5, still_dir)
 	var _yy = lengthdir_y(5, still_dir)
 	var _bullet = instance_create_layer(x + _xx, y + _yy, "Bullet", obj_bullet)
@@ -110,15 +112,24 @@ if keyboard_check(ord ("I")){
 	can_shoot = false
 }
 }
-if recharge == true{ // se esta dentro da area da torre
-if keyboard_check_pressed(ord ("O")){
-state = recharging;
-}
-if keyboard_check_pressed(ord ("P")) and (parts >=1){
-repair = true
-alarm [6] = 300
-parts -= 1
-state = repairing;
-}
-}
+
+//if place_meeting(x,y, obj_N1_tower_range){
+
+//}
+
+
+
+
+
+//if recharge == true{ // se esta dentro da area da torre
+//if keyboard_check_pressed(ord ("O")){
+//state = recharging;
+//}
+//if keyboard_check_pressed(ord ("P")) and (parts >=1){
+//repair = true
+//alarm [6] = 300
+//parts -= 1
+//state = repairing;
+//}
+//}
 }

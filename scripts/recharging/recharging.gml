@@ -6,11 +6,28 @@ sprite_index = spr_N1_Recharge
 press_to_stop_charging = true
 energy += 1/10
 if energy > 100{
+if tower == 1{
 obj_tower.energy -= 0
+} else if tower == 2{
+obj_tower2.energy -= 0
+} else if tower == 3{
+obj_tower3.energy -= 0
+} else if tower == 4{
+obj_tower4.energy -= 0
+}
+
 press_to_stop_charging = false
 state = move_state
 } else { 
+if tower == 1{
 obj_tower.energy -= 1/10
+} else if tower == 2{
+obj_tower2.energy -=  1/10
+} else if tower == 3{
+obj_tower3.energy -=  1/10
+} else if tower == 4{
+obj_tower4.energy -=  1/10
+}
 }
 
 
