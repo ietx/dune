@@ -1,8 +1,10 @@
 obj_robb.tower = 3
 
 if tower_down == false{
+if energy > 0{
 if keyboard_check_pressed(ord ("O")){
 obj_robb.state = recharging;
+}
 }
 if keyboard_check_pressed(ord ("P")) and (obj_robb.parts >=1){
 obj_robb.repair = true

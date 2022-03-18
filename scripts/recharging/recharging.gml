@@ -3,7 +3,18 @@
 function recharging(){
 sprite_index = spr_N1_Recharge
 press_to_stop_charging = true
-energy += 1/5
+
+if tower = 1 and obj_tower.energy >0 {
+energy += 1/5}
+if tower = 2 and obj_tower2.energy >0 {
+energy += 1/5}
+if tower = 3 and obj_tower3.energy >0 {
+energy += 1/5}
+if tower = 4 and obj_tower4.energy >0 {
+energy += 1/5}
+
+
+
 if energy > 100{
 if tower == 1{
 obj_tower.energy -= 0
@@ -22,13 +33,13 @@ state = move_state
 
 } else { 
 if tower == 1{
-obj_tower.energy -= 1/5
+obj_tower.energy -= 1
 } else if tower == 2{
-obj_tower2.energy -=  1/5
+obj_tower2.energy -=  1
 } else if tower == 3{
-obj_tower3.energy -=  1/5
+obj_tower3.energy -=  1
 } else if tower == 4{
-obj_tower4.energy -=  1/5
+obj_tower4.energy -=  1
 }
 }
 

@@ -26,7 +26,8 @@ batery_life = 1
 //energy
 
 max_energy = 100;
-energy = max_energy;
+energy = 100
+;
 press_to_stop_charging = false
 
 get_hit = true;
@@ -43,6 +44,6 @@ hit_alpha = -1
 
 
 //repair
-money = 0
+money = 20
 parts = 0
 repair = false

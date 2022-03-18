@@ -24,6 +24,7 @@ function move_state(){
 script_execute(input_map);
 
 if batery_life == 0{
+alarm[9] = 360
 state = out_of_battery;
 }
 
@@ -91,7 +92,7 @@ if ((xaxis != 0) or (yaxis != 0)) and (alarm[2] <= 0){
 if keyboard_check_pressed(ord("I")){
 	audio_sound_pitch(Dash_1,1)
 	audio_play_sound(Dash_1, 1, false)
-	energy -= .2
+	energy -= 1
 	dash_dir = spd_dir
 	alarm[2] = 30
 	alarm[1] = 180
@@ -112,7 +113,7 @@ if keyboard_check(ord ("U")){
 	_bullet.direction = still_dir;
 	_bullet.image_angle = still_dir + 270;
 	_bullet.speed = 5
-	alarm [5] = 7
+	alarm [5] = 12
 	can_shoot = false
 }
 }
