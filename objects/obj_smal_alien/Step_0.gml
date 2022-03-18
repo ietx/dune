@@ -12,6 +12,7 @@ script_execute(state)
 depth = -y
 
  if life == 0{
+
 dead = true
 state = alien_small_death_shot
 }

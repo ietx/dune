@@ -2,7 +2,8 @@
 alarm [1] = day_time 
 global.night = false
 
-
+audio_sound_pitch(Day,1)
+audio_play_sound(Day, 1, false)
 // spawn_genie
 random_set_seed(current_second*current_hour*current_hour*current_month)
 genie_random_loc = round(random_range(0,2))

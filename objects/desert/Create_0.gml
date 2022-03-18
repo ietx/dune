@@ -6,7 +6,8 @@ alarm [0] = 1
 
 day_time = 5 *60 // segundos
 alarm[1] = day_time
-
+audio_sound_pitch(Day,1)
+audio_play_sound(Day, 1, false)
 
 night_time = 60 *60
 instance_create_layer(112, 130, "Instances_1" ,obj_genie)

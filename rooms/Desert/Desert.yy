@@ -167,6 +167,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_big_alien","path":"objects/obj_big_alien/obj_big_alien.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":240.0,"resourceVersion":"1.0","name":"inst_1C7DBBB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_setup_pathway","path":"objects/obj_setup_pathway/obj_setup_pathway.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":16.0,"y":32.0,"resourceVersion":"1.0","name":"inst_622BD2C8","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_mid_alien","path":"objects/obj_mid_alien/obj_mid_alien.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":624.0,"y":64.0,"resourceVersion":"1.0","name":"inst_7B6DDF0D","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_smal_alien","path":"objects/obj_smal_alien/obj_smal_alien.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":64.0,"resourceVersion":"1.0","name":"inst_208631EC","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"desert","path":"objects/desert/desert.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_5411C5D1","tags":[],"resourceType":"GMRInstance",},
@@ -332,6 +333,7 @@
     {"name":"inst_782AC615","path":"rooms/Desert/Desert.yy",},
     {"name":"inst_7462631A","path":"rooms/Desert/Desert.yy",},
     {"name":"inst_7B6DDF0D","path":"rooms/Desert/Desert.yy",},
+    {"name":"inst_208631EC","path":"rooms/Desert/Desert.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

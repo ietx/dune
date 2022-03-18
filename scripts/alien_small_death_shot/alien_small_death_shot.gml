@@ -3,6 +3,8 @@
 function alien_small_death_shot(){
 dead = true
 path_end()
+//audio_sound_pitch(Dying_2_M1,2)
+//audio_play_sound(Dying_2_M1, 1, false)
 sprite_index = spr_Alien_3_Death_Gore
 image_speed = 1
 if (image_speed > 0){
