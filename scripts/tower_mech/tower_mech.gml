@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function tower_mech(){
 if global.night == false{
-energy+=1/20
+energy+=1/8
 }
 energy = clamp(energy, 0, max_energy);
 

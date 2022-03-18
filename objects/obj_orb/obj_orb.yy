@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_Gema_SPAWN",
-    "path": "sprites/spr_Gema_SPAWN/spr_Gema_SPAWN.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
