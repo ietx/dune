@@ -16,7 +16,7 @@
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
-  "volume": 1.0,
+  "volume": 0.7,
   "preload": false,
   "resourceVersion": "1.0",
   "tags": [],

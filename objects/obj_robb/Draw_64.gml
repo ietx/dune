@@ -22,9 +22,9 @@ draw_sprite_ext(spr_HUB_N1_Express_DEAD,-1,10,10, 4,4, 0, c_white, 1)
 } else if state == dash_state{
 draw_sprite_ext(spr_HUB_N1_Express_DASH,-1,10,10, 4,4, 0, c_white, 1)
 }
-
 draw_sprite_ext(spr_HUB_N1_EnergyBar,1,(51.5)*4,12.5*4, (energy/max_energy)* 4,4, 0, c_white, 1)
 draw_text_transformed_colour(426, 54, round((energy/max_energy)*100), 1.3, 1.3, 0, c_green, c_green, c_green, c_green, 1)
 draw_sprite_ext(spr_HUB_N1_Energy_Text,1,10,10, 4,4, 0, c_white, 1)
-draw_text_transformed_colour(71*4, 34.5*4, money, 2, 2, 0, c_green, c_green, c_green, c_green, 1)
+draw_text_transformed_colour(426, 54, round((energy/max_energy)*100), 1.3, 1.3, 0, c_green, c_green, c_green, c_green, 1)
 draw_text_transformed_color(400, 138, parts, 2, 2, 0, c_green, c_green, c_green, c_green, 1)
+

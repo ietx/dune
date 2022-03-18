@@ -1,7 +1,7 @@
 /// @description trigger day events
 alarm [1] = day_time 
 global.night = false
-
+audio_stop_sound(Night46)
 audio_sound_pitch(Day,1)
 audio_play_sound(Day, 1, false)
 // spawn_genie

@@ -1,5 +1,7 @@
 /// @description  trigger Night events
 audio_stop_sound(Day)
+audio_sound_pitch(Night46,1)
+audio_play_sound(Night46, 1, true)
 alarm [2] = night_time
 global.night = true
 global.wave +=1

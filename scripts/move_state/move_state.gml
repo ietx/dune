@@ -89,6 +89,8 @@ if (yspd < 0) {
 if ((xaxis != 0) or (yaxis != 0)) and (alarm[2] <= 0){
 
 if keyboard_check(ord("U")){
+	audio_sound_pitch(Dash_1,1)
+	audio_play_sound(Dash_1, 1, false)
 	energy -= .2
 	dash_dir = spd_dir
 	alarm[2] = 30
