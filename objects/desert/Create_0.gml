@@ -5,7 +5,7 @@ alarm [0] = 1
 
 
 day_time = 45 *60 // segundos
-alarm[1] = day_time
+alarm[1] = 8*60
 audio_sound_pitch(Day,1)
 audio_play_sound(Day, 1, false)
 

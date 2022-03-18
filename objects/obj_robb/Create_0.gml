@@ -44,6 +44,6 @@ hit_alpha = -1
 
 
 //repair
-money = 20
+money = 0
 parts = 0
 repair = false

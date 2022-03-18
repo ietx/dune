@@ -1,2 +1,2 @@
 /// @description vai par os creditos
-game_end()
+room_goto(Credits)
