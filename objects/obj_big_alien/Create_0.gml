@@ -16,9 +16,23 @@ dead = false
 path = path_add();
 
 
-tower = 0
-
-life = 8
 
 
-random_tower = round(random_range(1,4))
+life = 7
+
+
+tower_list = ds_list_create()
+//random_tower = round(random_range(1,4))
+//tower1 = obj_tower
+//tower1 = obj_tower// se destruida mudar para "destroy"
+ds_list_add(tower_list, obj_tower)
+ds_list_add(tower_list, obj_tower2)
+ds_list_add(tower_list, obj_tower3)
+ds_list_add(tower_list, obj_tower4)
+ds_list_shuffle(tower_list)
+tower = ds_list_find_value(tower_list, 0)
+
+tower_1_down = false
+tower_2_down = false
+tower_3_down = false
+tower_4_down = false

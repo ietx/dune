@@ -1,2 +1,3 @@
-/// @description die after x seconds
-instance_destroy()
+/// @description tempo que ela dura
+unspawn = true
+

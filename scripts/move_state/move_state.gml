@@ -88,7 +88,7 @@ if (yspd < 0) {
 
 if ((xaxis != 0) or (yaxis != 0)) and (alarm[2] <= 0){
 
-if keyboard_check(ord("U")){
+if keyboard_check_pressed(ord("I")){
 	audio_sound_pitch(Dash_1,1)
 	audio_play_sound(Dash_1, 1, false)
 	energy -= .2
@@ -103,7 +103,7 @@ if keyboard_check(ord("U")){
 // shooting
 
 if can_shoot == true{
-if keyboard_check(ord ("I")){
+if keyboard_check(ord ("U")){
 	audio_play_sound(Regular_Shot, 1, false)
 	energy -= .2
 	var _xx = lengthdir_x(5, still_dir)
@@ -116,6 +116,7 @@ if keyboard_check(ord ("I")){
 	can_shoot = false
 }
 }
+
 
 //if place_meeting(x,y, obj_N1_tower_range){
 

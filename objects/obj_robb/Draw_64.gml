@@ -27,4 +27,7 @@ draw_text_transformed_colour(426, 54, round((energy/max_energy)*100), 1.3, 1.3, 
 draw_sprite_ext(spr_HUB_N1_Energy_Text,1,10,10, 4,4, 0, c_white, 1)
 draw_text_transformed_colour(426, 54, round((energy/max_energy)*100), 1.3, 1.3, 0, c_green, c_green, c_green, c_green, 1)
 draw_text_transformed_color(400, 138, parts, 2, 2, 0, c_green, c_green, c_green, c_green, 1)
+draw_text_transformed_color(275, 138, money, 2, 2, 0, c_green, c_green, c_green, c_green, 1)
+
+
 

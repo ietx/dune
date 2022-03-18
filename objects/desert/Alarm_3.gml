@@ -10,5 +10,5 @@ else if (random_alien >= 2) and (random_alien <3){
 instance_create_layer(431, 423, "Instances_1" ,obj_big_alien)}
 else if (random_alien >= 3) and (random_alien <= 4){
 instance_create_layer(431, 423, "Instances_1" ,obj_mid_alien)}
-alarm [3] = 420
+alarm [3] = alien_spawn_gap_3 
 }

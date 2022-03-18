@@ -1,3 +1,3 @@
-alarm [0] = 300
-alarm [1] = 12
-
+spawn = false
+unspawn = false
+alarm[0] = 300

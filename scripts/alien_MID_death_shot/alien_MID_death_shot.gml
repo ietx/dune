@@ -9,7 +9,8 @@ if (image_speed > 0){
 if sprite_index == spr_Alien_2_Death_Gore{
 	if image_index >= 15{
 	image_speed = 0
-	instance_create_layer(x, y, "Bullet" ,obj_orb)
+	instance_create_layer(x - 3.5, y - 4, "Bullet" ,obj_orb)
+	instance_create_layer(x + 3.5, y - 4, "Bullet" ,obj_orb)
 	instance_destroy()
 
 }

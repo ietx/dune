@@ -41,7 +41,7 @@
     "spriteId": {"name":"spr_Gema_UNSPAWN","path":"sprites/spr_Gema_UNSPAWN/spr_Gema_UNSPAWN.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 6.0,
+    "playbackSpeed": 12.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

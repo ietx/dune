@@ -1,15 +1,16 @@
 draw_self()
 
 if distance_to_object(obj_robb) <= 7{
-	if obj_robb.parts >= 1{
-	draw_text_ext_transformed(x - 25, y - 32,"Press 'P' to repair ", 1, 1000, .3, .3, 0)
+	if tower_down = false{
+	if obj_robb.energy < 100 {draw_text_ext_transformed(x - 25, y - 25,"Press 'O' to recharge ", 1, 1000, .3, .3, 0)}
+	if obj_robb.parts >= 1{ draw_text_ext_transformed(x - 25, y - 32,"Press 'P' to repair", 1, 1000, .3, .3, 0)}
+	//if obj_robb.press_to_stop_charging = false{}
+	//} else {
+	//draw_text_ext_transformed(x - 25, y - 25,"Press 'O' to stop recharge ", 1, 1000, .3, .3, 0)
+	//}
+	} else {draw_text_ext_transformed(x - 15, y - 32,"Tower down", 1, 1000, .3, .3, 0)}
 	}
-	if obj_robb.press_to_stop_charging = false{
-	draw_text_ext_transformed(x - 25, y - 25,"Press 'O' to recharge ", 1, 1000, .3, .3, 0)
-	} else {
-	draw_text_ext_transformed(x - 25, y - 25,"Press 'O' to stop recharge ", 1, 1000, .3, .3, 0)
-	}
-	}
+	
 
 
 draw_sprite(spr_Energy_Bar_Base, 1, x - 14, y - 15)

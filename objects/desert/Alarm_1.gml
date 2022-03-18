@@ -6,6 +6,11 @@ alarm [2] = night_time
 global.night = true
 global.wave +=1
 night_time += 2*60
+if alien_spawn_gap_3 >= 200{ 
+alien_spawn_gap_3 -= 20}
+if alien_spawn_gap_4 > 180{
+alien_spawn_gap_4 -= 20}
+
 alarm [3] = 30
 alarm [4] = 45
 obj_genie.sprite_index = spr_G_nio_Unspawn
