@@ -4,7 +4,7 @@ global.wave = 0;
 alarm [0] = 1
 
 
-day_time = 5 *60 // segundos
+day_time = 30 *60 // segundos
 alarm[1] = day_time
 audio_sound_pitch(Day,1)
 audio_play_sound(Day, 1, false)
