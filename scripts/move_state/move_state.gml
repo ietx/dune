@@ -23,6 +23,9 @@ y += yspd * 0.5;
 function move_state(){
 script_execute(input_map);
 
+is_recharging = false
+tower_interaction = 0
+
 if batery_life == 0{
 alarm[9] = 360
 state = out_of_battery;
@@ -92,7 +95,7 @@ if ((xaxis != 0) or (yaxis != 0)) and (alarm[2] <= 0){
 if keyboard_check_pressed(ord("I")){
 	audio_sound_pitch(Dash_1,1)
 	audio_play_sound(Dash_1, 1, false)
-	energy -= 1
+	energy -= .2
 	dash_dir = spd_dir
 	alarm[2] = 30
 	alarm[1] = 180

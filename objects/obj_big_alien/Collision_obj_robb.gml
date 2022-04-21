@@ -12,7 +12,7 @@ if other.get_hit == true {
 		alarm [3] = 10;
 		alarm [4] = 100;
 		get_hit = false;
-		energy -= 8
+		energy -= 10
 	
 	}
 }

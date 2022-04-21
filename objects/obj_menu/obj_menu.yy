@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Zima_Menu_Inicial_1",
+    "path": "sprites/Zima_Menu_Inicial_1/Zima_Menu_Inicial_1.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

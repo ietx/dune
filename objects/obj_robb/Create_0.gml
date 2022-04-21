@@ -27,11 +27,12 @@ batery_life = 1
 
 max_energy = 100;
 energy = 100
-;
-press_to_stop_charging = false
+
+
 
 get_hit = true;
-recharge = false
+is_recharging = false
+tower_interaction = 0
 
 push_dir = 0;
 alarm [4] = 10

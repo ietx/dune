@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "ZIMA_Credits",
+    "path": "sprites/ZIMA_Credits/ZIMA_Credits.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

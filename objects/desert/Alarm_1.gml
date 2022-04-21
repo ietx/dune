@@ -6,9 +6,10 @@ alarm [2] = night_time
 global.night = true
 global.wave +=1
 night_time += 2*60
-if alien_spawn_gap_3 >= 200{ 
+
+if alien_spawn_gap_3 >=20{
 alien_spawn_gap_3 -= 20}
-if alien_spawn_gap_4 > 180{
+if alien_spawn_gap_4 >=20{
 alien_spawn_gap_4 -= 20}
  // night time disapear
 
